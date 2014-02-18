@@ -1,0 +1,51 @@
+@import "elements.less";
+@import "bootstrap/bootstrap.less";
+
+@fonts: "../fonts";
+
+.avenir {
+	font-family: 'Avenir';
+	font-style: normal;
+}
+
+@font-face {
+	.avenir;
+	src: url('@{fonts}/AvenirNextLTPro-Regular.otf');
+	font-weight: normal;
+}
+
+@font-face {
+	.avenir;
+	src: url('@{fonts}/AvenirNextLTPro-Demi.otf');
+	font-weight: bold;
+}
+
+@font-face {
+	.avenir;
+	src: url('@{fonts}/AvenirLTStd-Roman.otf');
+	font-weight: 200;
+}
+
+body {
+	background-color: @gray-lighter;
+}
+
+.jumbotron {
+	background-image: url(../img/tentphoto.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo-pic {
+	width: 140px;
+	display: block;
+	position: absolute;
+}
+
+.header {
+	padding: 30px;
+}
+
+h1 {
+	text-align: center;
+}
